@@ -59,11 +59,11 @@ const days = millis / 1000 / 60 / 60 / 24;
 let roles = client.guilds.get(message.guild.id).roles.map(r => r.name);
 var embed  = new Discord.RichEmbed()
 .setAuthor(message.guild.name, message.guild.iconURL)
-.addField("   -bc | رسالة جماعية الى كل اعضاء السيرفر :mega:)
-.addField("   -bc | رسالة جماعية الى كل اعضاء السيرفر :mega:)
-.addField(   -bc | رسالة جماعية الى كل اعضاء السيرفر :mega:)
-.addField(   -bc | رسالة جماعية الى كل اعضاء السيرفر :mega:)
-.addField(   -bc | رسالة جماعية الى كل اعضاء السيرفر :mega::mega:)
+.addField(-bc | رسالة جماعية الى كل اعضاء السيرفر :mega:)
+.addField(-bc | رسالة جماعية الى كل اعضاء السيرفر :mega:)
+.addField(-bc | رسالة جماعية الى كل اعضاء السيرفر :mega:)
+.addField(-bc | رسالة جماعية الى كل اعضاء السيرفر :mega:)
+.addField(-bc | رسالة جماعية الى كل اعضاء السيرفر :mega::mega:)
 .setColor('#000000')
 message.channel.sendEmbed(embed)
 
